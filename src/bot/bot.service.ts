@@ -54,7 +54,7 @@ export class BotService implements OnModuleInit {
         }
 
         if (
-          msg.reply_to_message.from.username === 'skill_blog_bot' ||
+          msg.reply_to_message.from.username === 'chat_forFun_bot' ||
           msg.reply_to_message.from.username === msg.from.username
         ) {
           return;
